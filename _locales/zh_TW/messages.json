@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "透過倒數計時器阻止分散注意力的網站並保持注意力集中。",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "積極的",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "不活躍",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "例如推特.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "添加",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "消除",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "被封鎖的網站",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "尚未新增站點。",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "期間",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "開始對焦",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "停止會話",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "剩餘時間",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "請輸入有效的網域名稱（例如 twitter.com）。",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "該域名已在清單中。",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "在開始之前至少添加一個要封鎖的網站。",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "請輸入有效的分鐘數。",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "風俗",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "保持專注",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "您處於專注模式",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "網站在您的焦點會議期間被封鎖。",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "剩餘時間",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "您的焦點會議已經結束。幹得好！",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "取得成功的秘訣就是開始。",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "專注於高效而不是忙碌。",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "這不是有時間的問題，而是創造時間的問題。",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "深度工作是 21 世紀的超級力量。",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "你不必看到整個樓梯，只需踏出第一步。",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— 馬克吐溫",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— 提姆‧費里斯",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— 未知",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— 卡爾紐波特",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "——馬丁路德金",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "保持鎖定狀態。你已經得到了這個。",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

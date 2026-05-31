@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "বিভ্রান্তিকর ওয়েবসাইটগুলি ব্লক করুন এবং একটি কাউন্টডাউন টাইমারের সাথে ফোকাস থাকুন৷",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "সক্রিয়",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "নিষ্ক্রিয়",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "যেমন twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "যোগ করুন",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "সরান",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "অবরুদ্ধ সাইট",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "কোনো সাইট এখনো যোগ করা হয়নি.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "সময়কাল",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 মিনিট",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ফোকাস শুরু করুন",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "সেশন বন্ধ করুন",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "বাকি সময়",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "অনুগ্রহ করে একটি বৈধ ডোমেন লিখুন (যেমন twitter.com)।",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "এই ডোমেনটি ইতিমধ্যেই তালিকায় রয়েছে৷",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "শুরু করার আগে ব্লক করতে অন্তত একটি সাইট যোগ করুন।",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "মিনিটের একটি বৈধ সংখ্যা লিখুন.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "কাস্টম",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "ফোকাসড থাকুন",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "আপনি ফোকাস মোডে আছেন",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "এই সাইটটি আপনার ফোকাস সেশনের সময় ব্লক করা হয়েছে।",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "বাকি সময়",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "আপনার ফোকাস সেশন শেষ হয়েছে. ভাল হয়েছে!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "এগিয়ে যাওয়ার গোপন সূত্র পাওয়া যাচ্ছে।",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "ব্যস্ততার পরিবর্তে উত্পাদনশীল হওয়ার দিকে মনোনিবেশ করুন।",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "এটা সময় থাকার বিষয়ে নয়, এটি সময় তৈরির বিষয়ে।",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "গভীর কাজ একবিংশ শতাব্দীর পরাশক্তি।",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "আপনাকে পুরো সিঁড়ি দেখতে হবে না, শুধু প্রথম পদক্ষেপ নিন।",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "—মার্ক টোয়েন",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- টিম ফেরিস",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- অজানা",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- ক্যাল নিউপোর্ট",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— মার্টিন লুথার কিং জুনিয়র",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "লক ইন করুন. আপনি এটি পেয়েছেন.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Блокуйте відволікаючі веб-сайти та зосереджуйтеся за допомогою таймера зворотного відліку.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Активний",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Неактивний",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "напр. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "додати",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "видалити",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Заблоковані сайти",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Сайтів ще не додано.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Тривалість",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 хвилина",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Розпочати фокус",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Зупинити сеанс",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Час, що залишився",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Введіть дійсний домен (наприклад, twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Цей домен уже є в списку.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Перш ніж почати, додайте принаймні один сайт для блокування.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Введіть дійсну кількість хвилин.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Custom",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Залишайтеся зосередженими",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Ви в режимі фокусування",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Цей сайт заблоковано під час вашого фокус-сеансу.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Залишився час",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Ваш фокус-сеанс закінчився. молодець!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Секрет просування вперед полягає в тому, щоб почати.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Зосередьтеся на продуктивності, а не на зайнятості.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Справа не в тому, щоб мати час, а в тому, щоб знайти час.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Глибока праця – суперсила 21 століття.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Вам не обов’язково бачити всю сходи, просто зробіть перший крок.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Марк Твен",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Тім Феррісс",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Невідомо",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Кел Ньюпорт",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Мартін Лютер Кінг мол.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Залишайтеся в замку. У вас це є.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

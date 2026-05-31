@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Bloķējiet uzmanību traucējošas vietnes un koncentrējieties, izmantojot atpakaļskaitīšanas taimeri.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Aktīvs",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Neaktīvs",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "piem. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Pievienot",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Noņemt",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Bloķētās vietnes",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Vēl nav pievienota neviena vietne.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Ilgums",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minūte",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Sāciet Focus",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Pārtraukt sesiju",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Atlikušais laiks",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Lūdzu, ievadiet derīgu domēnu (piemēram, twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Šis domēns jau ir sarakstā.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Pirms darba sākšanas pievienojiet vismaz vienu vietni, ko bloķēt.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Lūdzu, ievadiet derīgu minūšu skaitu.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Pielāgots",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Saglabājiet fokusu",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Jūs esat fokusa režīmā",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Šī vietne ir bloķēta jūsu fokusa sesijas laikā.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Atlikušais laiks",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Jūsu fokusa sesija ir beigusies. Labi darīts!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Noslēpums, kā tikt uz priekšu, ir darba sākšana.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Koncentrējieties uz būt produktīvam, nevis aizņemtam.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Tas nav par laika atgūšanu, bet gan par laika atgūšanu.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Dziļais darbs ir 21. gadsimta lielvara.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Jums nav jāredz visas kāpnes, vienkārši speriet pirmo soli.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- Marks Tvens",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- Tims Feriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Nezināms",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Mārtiņš Luters Kings jaunākais.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Esiet ieslēgts. Jums tas ir.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "ತಬ್ಬಿಬ್ಬುಗೊಳಿಸುವ ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ ಮತ್ತು ಕೌಂಟ್‌ಡೌನ್ ಟೈಮರ್‌ನೊಂದಿಗೆ ಗಮನಹರಿಸಿ.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "ಸಕ್ರಿಯ",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "ನಿಷ್ಕ್ರಿಯ",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "ಉದಾ. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "ಸೇರಿಸಿ",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "ತೆಗೆದುಹಾಕಿ",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "ನಿರ್ಬಂಧಿಸಿದ ಸೈಟ್‌ಗಳು",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಸೈಟ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "ಅವಧಿ",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 ನಿಮಿಷಗಳು",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ಫೋಕಸ್ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "ಸೆಷನ್ ನಿಲ್ಲಿಸಿ",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "ಉಳಿದಿರುವ ಸಮಯ",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಡೊಮೇನ್ ಅನ್ನು ನಮೂದಿಸಿ (ಉದಾ. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "ಈ ಡೊಮೇನ್ ಈಗಾಗಲೇ ಪಟ್ಟಿಯಲ್ಲಿದೆ.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ನಿರ್ಬಂಧಿಸಲು ಕನಿಷ್ಠ ಒಂದು ಸೈಟ್ ಅನ್ನು ಸೇರಿಸಿ.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ನಿಮಿಷಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "ಕಸ್ಟಮ್",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "ಫೋಕಸ್ ಆಗಿರಿ",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "ನೀವು ಫೋಕಸ್ ಮೋಡ್‌ನಲ್ಲಿರುವಿರಿ",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "ನಿಮ್ಮ ಫೋಕಸ್ ಸೆಷನ್ ಸಮಯದಲ್ಲಿ ಈ ಸೈಟ್ ಅನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "ಸಮಯ ಉಳಿದಿದೆ",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "ನಿಮ್ಮ ಗಮನ ಸೆಷನ್ ಕೊನೆಗೊಂಡಿದೆ. ಚೆನ್ನಾಗಿದೆ!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "ಮುಂದೆ ಹೋಗುವುದರ ರಹಸ್ಯವು ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "ಕಾರ್ಯನಿರತರಾಗುವ ಬದಲು ಉತ್ಪಾದಕತೆಯತ್ತ ಗಮನಹರಿಸಿ.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "ಇದು ಸಮಯವನ್ನು ಹೊಂದುವ ಬಗ್ಗೆ ಅಲ್ಲ, ಇದು ಸಮಯವನ್ನು ಮಾಡುವ ಬಗ್ಗೆ.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "ಆಳವಾದ ಕೆಲಸವು 21 ನೇ ಶತಮಾನದ ಮಹಾಶಕ್ತಿಯಾಗಿದೆ.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "ನೀವು ಸಂಪೂರ್ಣ ಮೆಟ್ಟಿಲನ್ನು ನೋಡಬೇಕಾಗಿಲ್ಲ, ಮೊದಲ ಹೆಜ್ಜೆ ಇರಿಸಿ.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- ಮಾರ್ಕ್ ಟ್ವೈನ್",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- ಟಿಮ್ ಫೆರಿಸ್",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- ಅಜ್ಞಾತ",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- ಕ್ಯಾಲ್ ನ್ಯೂಪೋರ್ಟ್",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- ಮಾರ್ಟಿನ್ ಲೂಥರ್ ಕಿಂಗ್ ಜೂನಿಯರ್",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "ಲಾಕ್ ಆಗಿರಿ. ನೀವು ಇದನ್ನು ಪಡೆದುಕೊಂಡಿದ್ದೀರಿ.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

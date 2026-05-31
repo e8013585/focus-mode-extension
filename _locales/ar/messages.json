@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "قم بحظر مواقع الويب التي تشتت انتباهك وحافظ على تركيزك باستخدام مؤقت العد التنازلي.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "نشيط",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "غير نشط",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "على سبيل المثال twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "يضيف",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "يزيل",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "المواقع المحجوبة",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "لم تتم إضافة أي مواقع حتى الآن.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "مدة",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ابدأ التركيز",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "إيقاف الجلسة",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "الوقت المتبقي",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "الرجاء إدخال نطاق صالح (على سبيل المثال، twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "هذا المجال موجود بالفعل في القائمة.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "أضف موقعًا واحدًا على الأقل لحظره قبل البدء.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "الرجاء إدخال عدد صحيح من الدقائق.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "مخصص",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "حافظ على تركيزك",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "أنت في وضع التركيز",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "تم حظر هذا الموقع أثناء جلسة التركيز الخاصة بك.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "الوقت المتبقي",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "لقد انتهت جلسة التركيز الخاصة بك. أحسنت!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "سر المضي قدمًا هو البدء.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "ركز على أن تكون منتجًا بدلًا من الانشغال.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "الأمر لا يتعلق بالحصول على الوقت، بل يتعلق بتخصيص الوقت.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "العمل العميق هو القوة العظمى في القرن الحادي والعشرين.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "ليس من الضروري أن ترى الدرج بأكمله، فقط قم بالخطوة الأولى.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- مارك توين",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- تيم فيريس",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- مجهول",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- كال نيوبورت",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- مارتن لوثر كينغ جونيور.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "ابق محبوسًا. لقد حصلت على هذا.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

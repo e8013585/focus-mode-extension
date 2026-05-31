@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "ശ്രദ്ധ തിരിക്കുന്ന വെബ്‌സൈറ്റുകൾ തടയുക, കൗണ്ട്‌ഡൗൺ ടൈമർ ഉപയോഗിച്ച് ഫോക്കസ് ചെയ്‌ത് തുടരുക.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "സജീവമാണ്",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "നിഷ്ക്രിയം",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "ഉദാ. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "ചേർക്കുക",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "നീക്കം ചെയ്യുക",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "തടഞ്ഞ സൈറ്റുകൾ",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "ഇതുവരെ സൈറ്റുകളൊന്നും ചേർത്തിട്ടില്ല.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "ദൈർഘ്യം",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 മിനിറ്റ്",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ഫോക്കസ് ആരംഭിക്കുക",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "സെഷൻ നിർത്തുക",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "ശേഷിക്കുന്ന സമയം",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "ദയവായി സാധുവായ ഒരു ഡൊമെയ്ൻ നൽകുക (ഉദാ. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "ഈ ഡൊമെയ്ൻ ഇതിനകം പട്ടികയിൽ ഉണ്ട്.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "ആരംഭിക്കുന്നതിന് മുമ്പ് ബ്ലോക്ക് ചെയ്യാൻ ഒരു സൈറ്റെങ്കിലും ചേർക്കുക.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "ദയവായി ഒരു സാധുവായ മിനിറ്റ് നൽകുക.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "കസ്റ്റം",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "ശ്രദ്ധ കേന്ദ്രീകരിക്കുക",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "നിങ്ങൾ ഫോക്കസ് മോഡിലാണ്",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "നിങ്ങളുടെ ഫോക്കസ് സെഷനിൽ ഈ സൈറ്റ് തടഞ്ഞിരിക്കുന്നു.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "സമയം ബാക്കി",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "നിങ്ങളുടെ ഫോക്കസ് സെഷൻ അവസാനിച്ചു. നന്നായി ചെയ്തു!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "മുന്നോട്ട് പോകുന്നതിൻ്റെ രഹസ്യം ആരംഭിക്കുകയാണ്.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "തിരക്കിനു പകരം ഉൽപ്പാദനക്ഷമതയുള്ളവരായിരിക്കുന്നതിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കുക.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "സമയം കിട്ടുന്നതിനെക്കുറിച്ചല്ല, സമയം കണ്ടെത്താനാണ്.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "21-ാം നൂറ്റാണ്ടിൻ്റെ മഹാശക്തിയാണ് ആഴത്തിലുള്ള ജോലി.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "നിങ്ങൾ ഗോവണി മുഴുവൻ കാണേണ്ടതില്ല, ആദ്യപടി എടുക്കുക.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- മാർക്ക് ട്വെയിൻ",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- ടിം ഫെറിസ്",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- അജ്ഞാതം",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- കാൽ ന്യൂപോർട്ട്",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- മാർട്ടിൻ ലൂഥർ കിംഗ് ജൂനിയർ.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "ലോക്ക് ഇൻ ചെയ്യൂ. നിങ്ങൾക്ക് ഇത് ലഭിച്ചു.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

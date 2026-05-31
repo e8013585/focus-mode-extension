@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Blokir situs web yang mengganggu dan tetap fokus dengan penghitung waktu mundur.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Aktif",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Tidak aktif",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "misalnya twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Menambahkan",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Menghapus",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Situs yang Diblokir",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Belum ada situs yang ditambahkan.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Lamanya",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 menit",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Mulai Fokus",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Hentikan Sesi",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Sisa Waktu",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Silakan masukkan domain yang valid (misalnya twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Domain ini sudah ada dalam daftar.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Tambahkan setidaknya satu situs untuk diblokir sebelum memulai.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Silakan masukkan jumlah menit yang valid.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Kebiasaan",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Tetap Fokus",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Anda berada dalam Mode Fokus",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Situs ini diblokir selama sesi fokus Anda.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Sisa waktu",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Sesi fokus Anda telah berakhir. Bagus sekali!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Rahasia untuk maju adalah dengan memulainya.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Fokuslah untuk menjadi produktif daripada sibuk.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Ini bukan tentang punya waktu, ini tentang meluangkan waktu.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Pekerjaan mendalam adalah kekuatan super di abad ke-21.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Anda tidak harus melihat keseluruhan tangga, cukup ambil langkah pertama.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- Tidak dikenal",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "—Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Tetap terkunci di dalam. Anda punya ini.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

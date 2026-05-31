@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Blokuokite dėmesį blaškančias svetaines ir sutelkite dėmesį naudodami atgalinės atskaitos laikmatį.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Aktyvus",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Neaktyvus",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "pvz. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Pridėti",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Pašalinti",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Užblokuotos svetainės",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Dar nepridėta jokių svetainių.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Trukmė",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutė",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Pradėti Focus",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Sustabdyti sesiją",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Likęs laikas",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Įveskite tinkamą domeną (pvz., twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Šis domenas jau yra sąraše.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Prieš pradėdami pridėkite bent vieną svetainę, kurią norite užblokuoti.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Įveskite tinkamą minučių skaičių.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Pasirinktinis",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Būkite susikaupę",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Esate fokusavimo režimu",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Ši svetainė užblokuota jūsų fokusavimo seanso metu.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Liko laikas",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Jūsų fokusavimo sesija baigėsi. Gerai padaryta!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Pažengimo į priekį paslaptis yra pradžia.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Susikoncentruokite į produktyvumą, o ne į užimtumą.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Svarbu ne turėti laiko, o skirti laiko.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Gilus darbas yra XXI amžiaus supergalia.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Jums nereikia matyti visų laiptų, tiesiog ženkite pirmą žingsnį.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "– Markas Tvenas",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "– Timas Ferrisas",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Nežinoma",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "– Kal Niuportas",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "– Martinas Liuteris Kingas jaunesnysis.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Likite užsidarę. Turite tai.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

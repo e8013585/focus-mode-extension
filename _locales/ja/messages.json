@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "気を散らす Web サイトをブロックし、カウントダウン タイマーで集中力を維持します。",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "アクティブ",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "非アクティブ",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "例えばツイッター.ツム",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "追加",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "取り除く",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "ブロックされたサイト",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "まだ追加されたサイトはありません。",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "間隔",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "フォーカスの開始",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "セッションの停止",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "残り時間",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "有効なドメイン (例: twitter.com) を入力してください。",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "このドメインはすでにリストにあります。",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "開始する前に、ブロックするサイトを少なくとも 1 つ追加します。",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "有効な分数を入力してください。",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "カスタム",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "集中力を保つ",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "フォーカスモードになっています",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "このサイトはフォーカス セッション中はブロックされています。",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "残り時間",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "フォーカス セッションが終了しました。よくやった！",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "前進する秘訣は始めることです。",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "忙しくするのではなく、生産性を高めることに焦点を当てましょう。",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "時間を持つことが大事なのではなく、時間を作ることが大事なのです。",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "ディープワークは 21 世紀のスーパーパワーです。",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "階段全体を見る必要はありません。最初の一歩を踏み出すだけです。",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— マーク・トウェイン",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— ティム・フェリス",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- 未知",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— カリフォルニア・ニューポート",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— マーティン・ルーサー・キング・ジュニア",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "閉じ込めておいてください。これを持っています。",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

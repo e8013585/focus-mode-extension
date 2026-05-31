@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "વિચલિત કરતી વેબસાઇટ્સને અવરોધિત કરો અને કાઉન્ટડાઉન ટાઈમર સાથે ધ્યાન કેન્દ્રિત કરો.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "સક્રિય",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "નિષ્ક્રિય",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "દા.ત. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "ઉમેરો",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "દૂર કરો",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "અવરોધિત સાઇટ્સ",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "હજી સુધી કોઈ સાઇટ્સ ઉમેરવામાં આવી નથી.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "અવધિ",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 મિનિટ",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ફોકસ શરૂ કરો",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "સત્ર રોકો",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "બાકીનો સમય",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "કૃપા કરીને માન્ય ડોમેન દાખલ કરો (દા.ત. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "આ ડોમેન પહેલેથી જ સૂચિમાં છે.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "પ્રારંભ કરતા પહેલા અવરોધિત કરવા માટે ઓછામાં ઓછી એક સાઇટ ઉમેરો.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "કૃપા કરીને માન્ય મિનિટની સંખ્યા દાખલ કરો.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "કસ્ટમ",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "ધ્યાન કેન્દ્રિત રહો",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "તમે ફોકસ મોડમાં છો",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "આ સાઇટ તમારા ફોકસ સત્ર દરમિયાન અવરોધિત છે.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "બાકીનો સમય",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "તમારું ફોકસ સત્ર સમાપ્ત થઈ ગયું છે. શાબાશ!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "આગળ વધવાનું રહસ્ય શરૂ થઈ રહ્યું છે.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "વ્યસ્ત રહેવાને બદલે ઉત્પાદક બનવા પર ધ્યાન આપો.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "તે સમય મેળવવા વિશે નથી, તે સમય બનાવવા વિશે છે.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "ડીપ વર્ક એ 21મી સદીની મહાસત્તા છે.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "તમારે આખી સીડી જોવાની જરૂર નથી, ફક્ત પ્રથમ પગલું ભરો.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- માર્ક ટ્વેઇન",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- ટિમ ફેરિસ",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- અજ્ઞાત",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- કેલ ન્યુપોર્ટ",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- માર્ટિન લ્યુથર કિંગ જુનિયર",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "બંધ રહો. તમને આ મળી ગયું છે.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

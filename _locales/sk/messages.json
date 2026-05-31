@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Blokujte rušivé webové stránky a zostaňte sústredení pomocou odpočítavacieho časovača.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Aktívne",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Neaktívne",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "napr. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Pridať",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Odstrániť",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Blokované stránky",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Zatiaľ neboli pridané žiadne stránky.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Trvanie",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Spustite zaostrenie",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Zastaviť reláciu",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Zostávajúci čas",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Zadajte platnú doménu (napr. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Táto doména je už v zozname.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Pred spustením pridajte aspoň jeden web, ktorý chcete zablokovať.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Zadajte platný počet minút.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Vlastné",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Zostaňte sústredení",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Ste v režime zaostrenia",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Táto stránka je počas vašej sústredenej relácie zablokovaná.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Zostávajúci čas",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Vaše sústredenie sa skončilo. Výborne!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Tajomstvo, ako sa dostať dopredu, je začať.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Zamerajte sa na to, aby ste boli produktívni namiesto toho, aby ste boli zaneprázdnení.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Nejde o to mať čas, ale urobiť si čas.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Hlboká práca je superveľmocou 21. storočia.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Nemusíte vidieť celé schodisko, stačí urobiť prvý krok.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Neznámy",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Zostaň zamknutý. Máš to.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

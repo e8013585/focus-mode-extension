@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Chặn các trang web gây mất tập trung và tập trung bằng đồng hồ đếm ngược.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Tích cực",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Không hoạt động",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "ví dụ. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Thêm vào",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Di dời",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Trang web bị chặn",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Chưa có trang web nào được thêm vào.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Khoảng thời gian",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 phút",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Bắt đầu lấy nét",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Dừng phiên",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Thời gian còn lại",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Vui lòng nhập miền hợp lệ (ví dụ: twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Tên miền này đã có trong danh sách.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Thêm ít nhất một trang web để chặn trước khi bắt đầu.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Vui lòng nhập số phút hợp lệ.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Phong tục",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Luôn tập trung",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Bạn đang ở Chế độ lấy nét",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Trang web này bị chặn trong phiên tập trung của bạn.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Thời gian còn lại",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Phiên tập trung của bạn đã kết thúc. Làm tốt!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Bí quyết để tiến lên phía trước là hãy bắt đầu.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Tập trung vào việc làm việc hiệu quả thay vì bận rộn.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Vấn đề không phải là có thời gian mà là việc tạo ra thời gian.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Làm việc sâu là siêu năng lực của thế kỷ 21.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Bạn không cần phải nhìn thấy toàn bộ cầu thang, chỉ cần bước bước đầu tiên.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Không rõ",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Hãy khóa chặt. Bạn có cái này.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

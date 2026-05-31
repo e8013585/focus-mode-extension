@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "وب سایت های حواس پرتی را مسدود کنید و با تایمر شمارش معکوس تمرکز خود را حفظ کنید.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "فعال",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "غیر فعال",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "به عنوان مثال twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "اضافه کنید",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "حذف کنید",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "سایت های مسدود شده",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "هنوز سایتی اضافه نشده است",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "مدت",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "تمرکز را شروع کنید",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "توقف جلسه",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "زمان باقی مانده",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "لطفاً یک دامنه معتبر (به عنوان مثال twitter.com) وارد کنید.",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "این دامنه قبلاً در لیست است.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "قبل از شروع حداقل یک سایت برای مسدود کردن اضافه کنید.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "لطفاً تعداد دقیقه معتبری وارد کنید.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "سفارشی",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "متمرکز بمان",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "شما در حالت فوکوس هستید",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "این سایت در طول جلسه تمرکز شما مسدود شده است.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "زمان باقی مانده",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "جلسه تمرکز شما به پایان رسیده است. آفرین!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "راز پیشرفت در شروع است.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "به جای مشغله، بر مولد بودن تمرکز کنید.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "این در مورد داشتن زمان نیست، بلکه در مورد زمان دادن است.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "کار عمیق ابرقدرت قرن بیست و یکم است.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "لازم نیست کل راه پله را ببینید، فقط اولین قدم را بردارید.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- مارک تواین",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- تیم فریس",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- نامعلوم",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- کال نیوپورت",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- مارتین لوتر کینگ جونیور",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "در قفل بمانید. شما این را دارید.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

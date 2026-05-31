@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "అపసవ్య వెబ్‌సైట్‌లను బ్లాక్ చేయండి మరియు కౌంట్‌డౌన్ టైమర్‌తో దృష్టి కేంద్రీకరించండి.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "చురుకుగా",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "నిష్క్రియ",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "ఉదా Twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "జోడించు",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "తొలగించు",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "బ్లాక్ చేయబడిన సైట్లు",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "ఇంకా సైట్‌లు ఏవీ జోడించబడలేదు.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "వ్యవధి",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 నిమిషాలు",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ఫోకస్ ప్రారంభించండి",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "సెషన్ ఆపు",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "సమయం మిగిలి ఉంది",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "దయచేసి చెల్లుబాటు అయ్యే డొమైన్‌ను నమోదు చేయండి (ఉదా. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "ఈ డొమైన్ ఇప్పటికే జాబితాలో ఉంది.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "ప్రారంభించడానికి ముందు బ్లాక్ చేయడానికి కనీసం ఒక సైట్‌ని జోడించండి.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "దయచేసి చెల్లుబాటు అయ్యే నిమిషాల సంఖ్యను నమోదు చేయండి.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "కస్టమ్",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "దృష్టి కేంద్రీకరించండి",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "మీరు ఫోకస్ మోడ్‌లో ఉన్నారు",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "మీ ఫోకస్ సెషన్ సమయంలో ఈ సైట్ బ్లాక్ చేయబడింది.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "సమయం మిగిలి ఉంది",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "మీ ఫోకస్ సెషన్ ముగిసింది. బాగా చేసారు!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "ముందుకు సాగడం యొక్క రహస్యం ప్రారంభమవుతుంది.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "బిజీగా కాకుండా ఉత్పాదకంగా ఉండటంపై దృష్టి పెట్టండి.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "ఇది సమయం గురించి కాదు, సమయం సంపాదించడం గురించి.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "లోతైన పని 21వ శతాబ్దపు సూపర్ పవర్.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "మీరు మొత్తం మెట్లను చూడవలసిన అవసరం లేదు, మొదటి అడుగు వేయండి.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- మార్క్ ట్వైన్",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- టిమ్ ఫెర్రిస్",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- తెలియదు",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- కాల్ న్యూపోర్ట్",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- మార్టిన్ లూథర్ కింగ్ జూనియర్.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "లాక్ చేసి ఉండండి. మీరు దీన్ని పొందారు.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

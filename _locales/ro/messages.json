@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Blocați site-urile web care vă distrag atenția și rămâneți concentrat cu un cronometru cu numărătoare inversă.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Activ",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Inactiv",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "de ex. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Adăuga",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Elimina",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Site-uri blocate",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Nu au fost adăugate site-uri încă.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Durată",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minute",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Începeți Focusul",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Opriți sesiunea",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Timpul rămas",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Vă rugăm să introduceți un domeniu valid (de exemplu, twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Acest domeniu este deja în listă.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Adăugați cel puțin un site de blocat înainte de a începe.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Vă rugăm să introduceți un număr valid de minute.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Personalizat",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Rămâi concentrat",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Sunteți în modul Focus",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Acest site este blocat în timpul sesiunii de focalizare.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Timp rămas",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Sesiunea ta de focalizare s-a încheiat. Bine făcut!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Secretul de a merge înainte este a începe.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Concentrează-te pe a fi productiv în loc să fii ocupat.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Nu este vorba de a avea timp, este de a face timp.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Munca profundă este superputerea secolului XXI.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Nu trebuie să vezi toată scara, doar fă primul pas.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Necunoscut",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Rămâi închis. Ai asta.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

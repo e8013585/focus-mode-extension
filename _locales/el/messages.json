@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Αποκλείστε ιστοτόπους που αποσπούν την προσοχή και παραμείνετε συγκεντρωμένοι με ένα χρονόμετρο αντίστροφης μέτρησης.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Ενεργός",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Αδρανής",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "π.χ. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Προσθέτω",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Αφαιρώ",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Αποκλεισμένοι ιστότοποι",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Δεν έχουν προστεθεί ακόμη ιστότοποι.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Διάρκεια",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 λεπτά",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Ξεκινήστε την εστίαση",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Διακοπή συνεδρίας",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Χρόνος που απομένει",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Εισαγάγετε έναν έγκυρο τομέα (π.χ. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Αυτός ο τομέας είναι ήδη στη λίστα.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Προσθέστε τουλάχιστον έναν ιστότοπο για αποκλεισμό πριν ξεκινήσετε.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Εισαγάγετε έναν έγκυρο αριθμό λεπτών.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Εθιμο",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Μείνετε συγκεντρωμένοι",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Βρίσκεστε σε λειτουργία εστίασης",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Αυτός ο ιστότοπος είναι αποκλεισμένος κατά τη διάρκεια της συνεδρίας εστίασής σας.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Χρόνος που απομένει",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Η συνεδρία εστίασής σας έληξε. Μπράβο!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Το μυστικό του να πας μπροστά είναι να ξεκινήσεις.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Επικεντρωθείτε στο να είστε παραγωγικοί αντί να είστε απασχολημένοι.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Δεν είναι να έχεις χρόνο, είναι να βρίσκεις χρόνο.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Η βαθιά δουλειά είναι η υπερδύναμη του 21ου αιώνα.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Δεν χρειάζεται να δείτε ολόκληρη τη σκάλα, απλώς κάντε το πρώτο βήμα.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Μαρκ Τουέιν",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Τιμ Φέρις",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "— Άγνωστο",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Καλ Νιούπορτ",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Μάρτιν Λούθερ Κινγκ Τζούνιορ.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Μείνε κλειδωμένος. Το έχεις αυτό.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

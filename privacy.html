@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Focus Mode</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f1117;
+      color: #e8eaf6;
+      line-height: 1.7;
+      padding: 40px 24px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #5cb860;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #9095b4;
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 28px 0 10px;
+      color: #e8eaf6;
+    }
+    p, li {
+      font-size: 14px;
+      color: #b0b5cc;
+      margin-bottom: 12px;
+    }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    strong { color: #e8eaf6; font-weight: 600; }
+    .badge {
+      display: inline-block;
+      background: rgba(74, 158, 92, 0.12);
+      color: #4a9e5c;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 20px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #2a3d2a;
+      margin: 32px 0;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #5a5f7d;
+    }
+    a { color: #5cb860; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <span class="badge">Privacy Policy</span>
+    <h1>Focus Mode</h1>
+    <p class="subtitle">Last updated: May 2026</p>
+
+    <p>
+      This privacy policy describes how the <strong>Focus Mode</strong> Chrome
+      extension handles your data. We take your privacy seriously.
+    </p>
+
+    <hr />
+
+    <h2>Data Collection</h2>
+    <p>
+      <strong>Focus Mode collects no data whatsoever.</strong> The extension does
+      not collect, transmit, or share any personal information, browsing history,
+      or usage statistics. No data is sent to any server — there are no analytics,
+      no telemetry, no ads, and no third-party services of any kind.
+    </p>
+
+    <h2>Data Storage</h2>
+    <p>All data is stored exclusively on your local machine using Chrome's
+      <code>chrome.storage.local</code> API. The following pieces of data are
+      stored locally and never leave your device:</p>
+    <ul>
+      <li>The list of domains you have chosen to block</li>
+      <li>Your selected session duration preference</li>
+      <li>Whether a focus session is currently active</li>
+      <li>The remaining time in an active session</li>
+      <li>A rotating quote index (to show a different quote each time)</li>
+    </ul>
+
+    <h2>Permissions Justification</h2>
+
+    <p><strong><code>storage</code></strong> — Used to save your blocked-domains
+      list and session preferences locally so they persist between browser
+      restarts.</p>
+
+    <p><strong><code>alarms</code></strong> — Used to run a background timer that
+      counts down the remaining focus-session time. The alarm fires approximately
+      once per second and never triggers any network activity.</p>
+
+    <p><strong><code>declarativeNetRequest</code></strong> and
+      <strong><code>declarativeNetRequestWithHostAccess</code></strong> — Used
+      to redirect (block) the websites you specify during a focus session. The
+      browser matches navigation requests against the block list directly — no
+      request data is inspected, logged, or transmitted.</p>
+
+    <p><strong><code>host_permissions (&lt;all_urls&gt;)</code></strong> —
+      Required so that the extension can redirect requests on any domain you add
+      to your block list. The extension never reads or modifies page content; it
+      only intercepts navigation to the specific domains you choose.</p>
+
+    <p><strong><code>web_accessible_resources</code></strong> — The
+      <code>blocked.html</code> page is served from the extension itself when a
+      blocked site is visited. This is the page you see instead of the
+      distracting website. No external resources are loaded.</p>
+
+    <h2>Third-Party Services</h2>
+    <p><strong>None.</strong> Focus Mode does not use any third-party APIs, CDNs,
+      analytics services, crash reporters, or external fonts. Every resource is
+      bundled with the extension and loaded locally.</p>
+
+    <h2>Network Requests</h2>
+    <p>The extension <strong>never makes network requests</strong> of any kind.
+      There is no phone-home mechanism, no update pings, and no background
+      communication with any server.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this policy is updated, the "Last updated" date at the top of this page
+      will be revised. Your continued use of the extension after changes
+      constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please open an issue on the
+      <a href="https://github.com/anomalyco/focus-mode-extension" target="_blank">GitHub repository</a>.</p>
+
+    <div class="footer">
+      &copy; 2026 Focus Mode. All rights reserved.
+    </div>
+
+  </div>
+</body>
+</html>

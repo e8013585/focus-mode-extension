@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Bloqueie sites que distraem e mantenha o foco com uma contagem regressiva.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Ativo",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Inativo",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "por exemplo twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Adicionar",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Remover",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Sites bloqueados",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Nenhum site adicionado ainda.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Duração",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Iniciar foco",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Parar sessão",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Tempo restante",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Insira um domínio válido (por exemplo, twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Este domínio já está na lista.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Adicione pelo menos um site para bloquear antes de começar.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Insira um número válido de minutos.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Personalizado",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Mantenha o foco",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Você está no modo de foco",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Este site está bloqueado durante sua sessão de foco.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Tempo restante",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Sua sessão de foco terminou. Bom trabalho!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "O segredo para progredir é começar.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Concentre-se em ser produtivo em vez de ocupado.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Não se trata de ter tempo, trata-se de arranjar tempo.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "O trabalho profundo é a superpotência do século XXI.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Você não precisa ver toda a escada, basta dar o primeiro degrau.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "-Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "-Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- Desconhecido",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "—Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "-Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Fique trancado. Você consegue.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

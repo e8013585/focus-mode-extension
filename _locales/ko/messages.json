@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "방해가 되는 웹사이트를 차단하고 카운트다운 타이머로 집중력을 유지하세요.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "활동적인",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "비활성",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "예를 들어 트위터.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "추가하다",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "제거하다",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "차단된 사이트",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "아직 추가된 사이트가 없습니다.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "지속",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 minutes",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "포커스 시작",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "세션 중지",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "남은 시간",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "유효한 도메인(예: twitter.com)을 입력하세요.",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "이 도메인은 이미 목록에 있습니다.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "시작하기 전에 차단할 사이트를 하나 이상 추가하세요.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "올바른 시간(분)을 입력하세요.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "관습",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "집중하세요",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "현재 집중 모드입니다",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "이 사이트는 집중 세션 중에 차단됩니다.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "남은 시간",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "집중 세션이 종료되었습니다. 잘하셨어요!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "앞서가는 비결은 시작하는 것입니다.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "바쁜 것보다 생산적인 일에 집중하세요.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "시간을 갖는 것이 아니라 시간을 만드는 것입니다.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "딥워크는 21세기의 초능력이다.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "계단 전체를 볼 필요는 없으며 첫 번째 단계만 수행하면 됩니다.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— 마크 트웨인",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— 팀 페리스",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- 알려지지 않은",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— 칼 뉴포트",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— 마틴 루터 킹 주니어",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "계속 갇혀 있으세요. 당신은 이것을 가지고 있습니다.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

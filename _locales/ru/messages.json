@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Блокируйте отвлекающие веб-сайты и сохраняйте концентрацию с помощью таймера обратного отсчета.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Активный",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Неактивный",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "например twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Добавлять",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Удалять",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Заблокированные сайты",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Сайты пока не добавлены.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Продолжительность",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 минута",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Начать фокус",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Остановить сеанс",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Оставшееся время",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Введите действительный домен (например, twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Этот домен уже есть в списке.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Прежде чем начать, добавьте хотя бы один сайт, который нужно заблокировать.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Пожалуйста, введите допустимое количество минут.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Обычай",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Оставайтесь сосредоточенными",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Вы находитесь в режиме фокусировки",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Этот сайт заблокирован во время вашего сеанса фокусировки.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Оставшееся время",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Ваша фокус-сессия завершилась. Отличная работа!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Секрет успеха в том, чтобы начать.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Сосредоточьтесь на продуктивности, а не на занятости.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Дело не в том, чтобы успеть, а в том, чтобы его найти.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Глубокая работа – это суперсила 21 века.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Вам не обязательно видеть всю лестницу, достаточно сделать первый шаг.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "— Марк Твен",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Тим Феррис",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- Неизвестный",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "— Кэл Ньюпорт",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Мартин Лютер Кинг мл.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Оставайся запертым. У тебя это есть.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "विचलित करणाऱ्या वेबसाइट्स ब्लॉक करा आणि काउंटडाउन टाइमरसह लक्ष केंद्रित करा.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "सक्रिय",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "निष्क्रिय",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "उदा. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "ॲड",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "काढा",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "ब्लॉक केलेल्या साइट्स",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "अद्याप कोणत्याही साइट जोडल्या नाहीत.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "कालावधी",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 मिनिटे",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "फोकस सुरू करा",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "सत्र थांबवा",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "बाकी वेळ",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "कृपया वैध डोमेन प्रविष्ट करा (उदा. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "हे डोमेन आधीपासून सूचीमध्ये आहे.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "प्रारंभ करण्यापूर्वी अवरोधित करण्यासाठी किमान एक साइट जोडा.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "कृपया मिनिटांची वैध संख्या प्रविष्ट करा.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "सानुकूल",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "लक्ष केंद्रित करा",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "तुम्ही फोकस मोडमध्ये आहात",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "तुमच्या फोकस सत्रादरम्यान ही साइट ब्लॉक केली जाते.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "बाकी वेळ",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "तुमचे फोकस सत्र संपले आहे. शाब्बास!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "पुढे जाण्याचे रहस्य कळू लागले आहे.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "व्यस्त राहण्याऐवजी उत्पादक होण्यावर भर द्या.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "हे वेळ काढण्याबद्दल नाही, वेळ काढण्याबद्दल आहे.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "सखोल कार्य ही 21 व्या शतकातील महासत्ता आहे.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "तुम्हाला संपूर्ण जिना पाहण्याची गरज नाही, फक्त पहिले पाऊल टाका.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- मार्क ट्वेन",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- टिम फेरिस",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- अज्ञात",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- कॅल न्यूपोर्ट",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- मार्टिन ल्यूथर किंग जूनियर",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "लॉक इन करा. तुम्हाला हे मिळाले आहे.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Blockieren Sie ablenkende Websites und bleiben Sie mit einem Countdown-Timer konzentriert.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Aktiv",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Inaktiv",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "z.B. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Hinzufügen",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Entfernen",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Blockierte Websites",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Noch keine Websites hinzugefügt.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Dauer",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 Minuten",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Fokus starten",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Sitzung stoppen",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Verbleibende Zeit",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Bitte geben Sie eine gültige Domain ein (z. B. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Diese Domain ist bereits in der Liste.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Fügen Sie vor dem Start mindestens eine zu blockierende Website hinzu.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Bitte geben Sie eine gültige Anzahl an Minuten ein.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Brauch",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Bleiben Sie konzentriert",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Sie befinden sich im Fokusmodus",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Diese Seite ist während Ihrer Fokussitzung gesperrt.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Verbleibende Zeit",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Ihre Fokussitzung ist beendet. Gut gemacht!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Das Geheimnis des Vorankommens liegt darin, anzufangen.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Konzentrieren Sie sich darauf, produktiv statt beschäftigt zu sein.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Es geht nicht darum, Zeit zu haben, sondern darum, sich Zeit zu nehmen.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Deep Work ist die Supermacht des 21. Jahrhunderts.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Sie müssen nicht die ganze Treppe sehen, sondern nehmen Sie einfach die erste Stufe.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "– Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "— Tim Ferriss",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "– Unbekannt",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "– Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "— Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Bleiben Sie eingesperrt. Das haben Sie.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

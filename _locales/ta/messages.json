@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "கவனத்தை சிதறடிக்கும் இணையதளங்களைத் தடுத்து, கவுண்டவுன் டைமருடன் கவனம் செலுத்துங்கள்.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "செயலில்",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "செயலற்றது",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "எ.கா. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "சேர்",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "அகற்று",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "தடுக்கப்பட்ட தளங்கள்",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "இதுவரை எந்த தளங்களும் சேர்க்கப்படவில்லை.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "கால அளவு",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 நிமிடங்கள்",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "ஃபோகஸைத் தொடங்கவும்",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "அமர்வை நிறுத்து",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "மீதமுள்ள நேரம்",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "சரியான டொமைனை உள்ளிடவும் (எ.கா. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "இந்த டொமைன் ஏற்கனவே பட்டியலில் உள்ளது.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "தொடங்குவதற்கு முன் தடுக்க குறைந்தபட்சம் ஒரு தளத்தைச் சேர்க்கவும்.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "சரியான எண்ணிக்கையிலான நிமிடங்களை உள்ளிடவும்.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "தனிப்பயன்",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "கவனம் செலுத்துங்கள்",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "நீங்கள் ஃபோகஸ் பயன்முறையில் உள்ளீர்கள்",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "உங்கள் ஃபோகஸ் அமர்வின் போது இந்தத் தளம் தடுக்கப்பட்டது.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "மீதமுள்ள நேரம்",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "உங்கள் கவனம் அமர்வு முடிந்தது. நல்லது!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "முன்னேறுவதற்கான ரகசியம் தொடங்குகிறது.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "பிஸியாக இருப்பதற்கு பதிலாக உற்பத்தி செய்வதில் கவனம் செலுத்துங்கள்.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "இது நேரத்தைப் பற்றியது அல்ல, நேரத்தைச் செய்வது பற்றியது.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "ஆழமான உழைப்பு 21 ஆம் நூற்றாண்டின் வல்லரசு.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "நீங்கள் முழு படிக்கட்டுகளையும் பார்க்க வேண்டியதில்லை, முதல் படியை எடுங்கள்.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- மார்க் ட்வைன்",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- டிம் பெர்ரிஸ்",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- தெரியவில்லை",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- கால் நியூபோர்ட்",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- மார்ட்டின் லூதர் கிங் ஜூனியர்.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "உள்ளேயே இருங்கள். இது உங்களிடம் உள்ளது.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

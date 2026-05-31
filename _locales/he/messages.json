@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "חסום אתרים מסיחים והשאר ממוקדים עם טיימר ספירה לאחור.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "פָּעִיל",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "לֹא פָּעִיל",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "לְמָשָׁל twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "לְהוֹסִיף",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "לְהַסִיר",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "אתרים חסומים",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "עדיין לא נוספו אתרים.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "מֶשֶׁך",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 דקות",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "התחל פוקוס",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "עצור סשן",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "זמן שנותר",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "אנא הזן דומיין חוקי (למשל twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "הדומיין הזה כבר נמצא ברשימה.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "הוסף לפחות אתר אחד לחסימה לפני שתתחיל.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "נא להזין מספר חוקי של דקות.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "מִנְהָג",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "הישאר ממוקד",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "אתה במצב פוקוס",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "אתר זה נחסם במהלך הפעלת המיקוד שלך.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "זמן שנותר",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "מפגש ההתמקדות שלך הסתיים. כל הכבוד!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "הסוד להתקדם הוא להתחיל.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "התמקד בלהיות פרודוקטיבי במקום עסוק.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "זה לא עניין של זמן, זה עניין של לפנות זמן.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "עבודה עמוקה היא מעצמת העל של המאה ה-21.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "אתה לא צריך לראות את כל גרם המדרגות, פשוט עשה את הצעד הראשון.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- מארק טווין",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- טים פריס",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- לא ידוע",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- קאל ניופורט",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- מרטין לותר קינג ג'וניור",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "הישאר נעול. יש לך את זה.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

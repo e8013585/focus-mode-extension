@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="blocked.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Background decoration -->
+    <div class="bg-orb bg-orb--1" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb--2" aria-hidden="true"></div>
+
+    <!-- Card -->
+    <div class="card" role="main">
+
+      <!-- Lock icon (pure CSS/SVG) -->
+      <div class="icon-wrapper" aria-hidden="true">
+        <svg class="lock-icon" viewBox="0 0 80 80"
+             xmlns="http://www.w3.org/2000/svg">
+          <!-- Shackle -->
+          <path
+            d="M24 36V26a16 16 0 0 1 32 0v10"
+            stroke="currentColor" stroke-width="5"
+            stroke-linecap="round" stroke-linejoin="round"
+            fill="none"/>
+          <!-- Body -->
+          <rect x="14" y="36" width="52" height="36"
+                rx="8" fill="currentColor" opacity="0.9"/>
+          <!-- Keyhole circle -->
+          <circle cx="40" cy="54" r="5" fill="var(--bg-card)"/>
+          <!-- Keyhole slot -->
+          <rect x="37.5" y="54" width="5" height="8"
+                rx="2.5" fill="var(--bg-card)"/>
+        </svg>
+      </div>
+
+      <!-- Extension name -->
+      <p class="ext-name" id="extName"></p>
+
+      <!-- Main heading -->
+      <h1 class="heading" id="heading"></h1>
+
+      <!-- Subheading -->
+      <p class="subheading" id="subheading"></p>
+
+      <!-- Countdown -->
+      <div class="timer-block" id="timerBlock">
+        <p class="timer-label" id="timerLabel"></p>
+        <div class="timer-display" id="timerDisplay">--:--</div>
+      </div>
+
+      <!-- Session over message (hidden by default) -->
+      <p class="session-over" id="sessionOver" hidden></p>
+
+      <!-- Motivational quote -->
+      <div class="quote-block">
+        <p class="quote-text"  id="quoteText"></p>
+        <p class="quote-author" id="quoteAuthor"></p>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-tagline" id="footerTagline"></p>
+    </footer>
+
+  </div>
+
+  <script src="blocked.js"></script>
+</body>
+</html>

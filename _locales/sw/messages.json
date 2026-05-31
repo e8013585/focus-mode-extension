@@ -1,0 +1,146 @@
+{
+  "extensionName": {
+    "message": "Focus Mode",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Focus Mode",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Zuia tovuti zinazokengeusha na uendelee kulenga ukitumia kipima muda cha kurudi nyuma.",
+    "description": "Description of the extension shown in the Chrome Web Store"
+  },
+  "statusActive": {
+    "message": "Inayotumika",
+    "description": "Status badge text when a focus session is running"
+  },
+  "statusInactive": {
+    "message": "Isiyotumika",
+    "description": "Status badge text when no focus session is running"
+  },
+  "addDomainPlaceholder": {
+    "message": "k.m. twitter.tsum",
+    "description": "Placeholder text for the domain input field"
+  },
+  "addButton": {
+    "message": "Ongeza",
+    "description": "Label for the button that adds a domain to the block list"
+  },
+  "removeButton": {
+    "message": "Ondoa",
+    "description": "Accessible label for the remove (✕) button on each domain entry"
+  },
+  "blockedSitesHeading": {
+    "message": "Tovuti Zilizozuiwa",
+    "description": "Heading above the list of blocked domains"
+  },
+  "noSitesAdded": {
+    "message": "Bado hakuna tovuti zilizoongezwa.",
+    "description": "Empty-state message shown when the block list is empty"
+  },
+  "durationLabel": {
+    "message": "Muda",
+    "description": "Label for the session duration selector"
+  },
+  "durationMinutes": {
+    "message": "$1 dakika",
+    "description": "Duration option label, e.g. '25 minutes'. $1 is replaced with the number."
+  },
+  "startButton": {
+    "message": "Anza Kuzingatia",
+    "description": "Button label to begin a focus session"
+  },
+  "stopButton": {
+    "message": "Acha Kikao",
+    "description": "Button label to end an active focus session"
+  },
+  "countdownLabel": {
+    "message": "Muda Uliobaki",
+    "description": "Label shown above the countdown timer in the popup"
+  },
+  "errorInvalidDomain": {
+    "message": "Tafadhali weka kikoa halali (k.m. twitter.com).",
+    "description": "Error shown when the user types an invalid domain"
+  },
+  "errorDuplicate": {
+    "message": "Kikoa hiki tayari kiko kwenye orodha.",
+    "description": "Error shown when the user tries to add a domain already present"
+  },
+  "errorNoDomains": {
+    "message": "Ongeza angalau tovuti moja ili kuzuia kabla ya kuanza.",
+    "description": "Error shown when the user tries to start a session with no domains"
+  },
+  "errorInvalidMinutes": {
+    "message": "Tafadhali weka nambari halali ya dakika.",
+    "description": "Error shown when the custom minutes value is invalid"
+  },
+  "customMinutes": {
+    "message": "Desturi",
+    "description": "Option label in the duration dropdown for custom minutes"
+  },
+  "blockedPageTitle": {
+    "message": "Endelea Kuzingatia",
+    "description": "HTML <title> of the blocked.html page"
+  },
+  "blockedHeading": {
+    "message": "Uko katika Modi ya Kuzingatia",
+    "description": "Main heading on the blocked page"
+  },
+  "blockedSubheading": {
+    "message": "Tovuti hii imezuiwa wakati wa kipindi chako cha kuzingatia.",
+    "description": "Subheading on the blocked page explaining why the page is blocked"
+  },
+  "blockedTimeRemaining": {
+    "message": "Muda uliobaki",
+    "description": "Label shown above the countdown on the blocked page"
+  },
+  "blockedSessionOver": {
+    "message": "Kipindi chako cha umakini kimeisha. Umefanya vizuri!",
+    "description": "Message shown on the blocked page when the session timer reaches zero"
+  },
+  "quote1": {
+    "message": "Siri ya kwenda mbele ni kuanza.",
+    "description": "Motivational quote 1 shown on the blocked page"
+  },
+  "quote2": {
+    "message": "Zingatia kuwa na tija badala ya kuwa na shughuli nyingi.",
+    "description": "Motivational quote 2 shown on the blocked page"
+  },
+  "quote3": {
+    "message": "Sio kuwa na wakati, ni kutengeneza wakati.",
+    "description": "Motivational quote 3 shown on the blocked page"
+  },
+  "quote4": {
+    "message": "Kazi ya kina ni nguvu kuu ya karne ya 21.",
+    "description": "Motivational quote 4 shown on the blocked page"
+  },
+  "quote5": {
+    "message": "Sio lazima kuona ngazi nzima, chukua hatua ya kwanza tu.",
+    "description": "Motivational quote 5 shown on the blocked page"
+  },
+  "quoteAuthor1": {
+    "message": "- Mark Twain",
+    "description": "Author attribution for quote 1"
+  },
+  "quoteAuthor2": {
+    "message": "- Tim Ferris",
+    "description": "Author attribution for quote 2"
+  },
+  "quoteAuthor3": {
+    "message": "- Haijulikani",
+    "description": "Author attribution for quote 3"
+  },
+  "quoteAuthor4": {
+    "message": "- Cal Newport",
+    "description": "Author attribution for quote 4"
+  },
+  "quoteAuthor5": {
+    "message": "- Martin Luther King Jr.",
+    "description": "Author attribution for quote 5"
+  },
+  "footerTagline": {
+    "message": "Endelea kujifungia ndani. Unayo hii.",
+    "description": "Short motivational tagline in the footer of the blocked page"
+  }
+}

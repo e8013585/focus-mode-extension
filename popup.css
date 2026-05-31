@@ -1,0 +1,483 @@
+/* ── CSS Variables ──────────────────────────────────────────── */
+:root {
+  --bg-primary:      #0f1117;
+  --bg-secondary:    #1a1d27;
+  --bg-tertiary:     #22263a;
+  --bg-input:        #1e2235;
+  --border:          #2a3d2a;
+  --border-focus:    #3b7a3f;
+
+  --text-primary:    #e8eaf6;
+  --text-secondary:  #9095b4;
+  --text-muted:      #5a5f7d;
+
+  --accent:          #3b7a3f;
+  --accent-hover:    #4c8f51;
+  --accent-active:   #2d6632;
+
+  --danger:          #c97d3a;
+  --danger-hover:    #d88f4a;
+
+  --success:         #4a9e5c;
+  --success-bg:      rgba(74, 158, 92, 0.12);
+
+  --grey-badge-bg:   rgba(144, 149, 180, 0.15);
+
+  --radius-sm:       6px;
+  --radius-md:       10px;
+  --radius-lg:       14px;
+  --radius-full:     9999px;
+
+  --shadow-sm:       0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md:       0 4px 16px rgba(0,0,0,0.5);
+
+  --transition:      150ms ease;
+
+  --font-sans:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                     Helvetica, Arial, sans-serif;
+  --font-mono:       "SF Mono", "Fira Code", "Cascadia Code", Consolas,
+                     monospace;
+}
+
+/* ── Reset / Base ───────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 340px;
+  min-width: 340px;
+  max-width: 340px;
+}
+
+body {
+  width: 340px;
+  min-width: 340px;
+  max-width: 340px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Layout ─────────────────────────────────────────────────── */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* ── Header ─────────────────────────────────────────────────── */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px 12px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.app-name {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text-primary);
+}
+
+/* ── Status Badge ───────────────────────────────────────────── */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background var(--transition), color var(--transition);
+  background: var(--grey-badge-bg);
+  color: var(--text-secondary);
+}
+
+.status-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  transition: background var(--transition), box-shadow var(--transition);
+}
+
+.status-badge.active {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+.status-badge.active::before {
+  background: var(--success);
+  box-shadow: 0 0 0 3px rgba(74, 158, 92, 0.25);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(74, 158, 92, 0.25); }
+  50%       { box-shadow: 0 0 0 5px rgba(74, 158, 92, 0.1); }
+}
+
+/* ── Main ───────────────────────────────────────────────────── */
+.app-main {
+  flex: 1;
+  padding: 14px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ── Countdown ──────────────────────────────────────────────── */
+.countdown-section {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.countdown-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.countdown-display {
+  font-family: var(--font-mono);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(59, 122, 63, 0.4);
+}
+
+/* ── Section ────────────────────────────────────────────────── */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-heading {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* ── Input Row ──────────────────────────────────────────────── */
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.domain-input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 12px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.domain-input::placeholder {
+  color: var(--text-muted);
+}
+
+.domain-input:focus {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(59, 122, 63, 0.18);
+}
+
+.domain-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── Error Message ──────────────────────────────────────────── */
+.error-msg {
+  font-size: 12px;
+  color: var(--danger);
+  padding: 0 2px;
+}
+
+/* ── Domain List ────────────────────────────────────────────── */
+.domain-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 140px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.domain-list::-webkit-scrollbar {
+  width: 4px;
+}
+.domain-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.domain-list::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+
+.domain-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  gap: 8px;
+  animation: fadeIn 180ms ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.domain-item-text {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.remove-btn {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), color var(--transition);
+  padding: 0;
+}
+
+.remove-btn:hover:not(:disabled) {
+  background: rgba(201, 125, 58, 0.15);
+  color: var(--danger);
+}
+
+.remove-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.empty-state {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 4px 2px;
+}
+
+/* ── Duration Select ────────────────────────────────────────── */
+.duration-select {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239095b4' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.duration-select:focus {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(59, 122, 63, 0.18);
+}
+
+.duration-select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.duration-select option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* ── Footer ─────────────────────────────────────────────────── */
+.app-footer {
+  padding: 12px 16px 16px;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition),
+              box-shadow var(--transition), opacity var(--transition);
+  outline: none;
+  white-space: nowrap;
+}
+
+.btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(59, 122, 63, 0.4);
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+/* Secondary (Add) */
+.btn-secondary {
+  padding: 8px 14px;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--border);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Primary (Start / Stop) */
+.btn-primary {
+  width: 100%;
+  padding: 11px 16px;
+  font-size: 14px;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:active:not(:disabled) {
+  background: var(--accent-active);
+}
+
+.btn-primary.danger {
+  background: var(--danger);
+}
+
+.btn-primary.danger:hover:not(:disabled) {
+  background: var(--danger-hover);
+}
+
+/* ── Custom Minutes Input ───────────────────────────────────── */
+.custom-minutes-row {
+  display: flex;
+}
+
+.custom-minutes-row[hidden] {
+  display: none;
+}
+
+.duration-input {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.duration-input:focus {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(59, 122, 63, 0.18);
+}
+
+.duration-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Hide number input spinners */
+.duration-input::-webkit-outer-spin-button,
+.duration-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.duration-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* RTL adjustments */
+[dir="rtl"] .duration-select {
+  background-position: left 12px center;
+  padding-right: 12px;
+  padding-left: 32px;
+}
